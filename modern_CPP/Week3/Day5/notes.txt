@@ -1,0 +1,53 @@
+Steve wonder - legend guitarist
+
+
+the moment rvalue is attached to variable it is no longer a rvalue it is now lvalue.
+
+
+Moderate time :
+ls,
+top
+
+
+Easy :
+cd,
+cp,
+mv,
+rv,
+rmdir,
+mkdir,
+touch 
+
+High Difficuly:
+find, 
+grep,
+sed,
+awk,
+ps
+ssh 
+
+
+
+Parts of operating system :
+
+1) Kernel : software program (written in either C or Rust)
+            - heart of OS (core of the OS)
+            - Process scheduling, Threading and concurrency, 
+               Device Driver and its usage, security, file management
+
+2) Applications and Utilities :
+            - GNU Utilities & other programs (pre-installed & available for install)
+            
+3) Desktop Environment :
+            - GUI visible to the user (which performs operations as demanded)
+            -e.g.- Gnome (current), Unity Desktop, Cosmic, KDE Plasma, etc 
+
+4) Shell :
+        - bash (it is a program) , zsh, fish 
+    
+5) Package Manager : 
+            - apt (aptitude), rpm, dnf, pacman, winget(windows), brew
+
+
+
+/home/kpit/.ssh/id_rsa.pub  --> public key .

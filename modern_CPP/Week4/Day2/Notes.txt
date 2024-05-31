@@ -1,0 +1,51 @@
+Search a number in an array of size N 
+linear search : O(n)
+
+how many elements do u access/touch/open --> no. of operation
+
+How many elements do I have to go through to complete my task ---> worst case 
+    Time complexity
+
+    Take min in array as a example
+
+Encapsulation ke andar data binding involve hota hai 
+
+
+Order of growth --> Time complexity
+as your input data grows, how many times your input operations grows 
+
+** Which line will u not cross this is what we called 
+ time complexity in graphical way.
+
+
+
+1) Bubble sort can be resololved in (N^2 + N) / 2 access of elements
+
+
+ 
+THis is  quadratic order of growth with respect of n because
+form any value of n greater than 1, (n^2+n)/2 is necer greater ths  n^2
+
+
+/////////////
+Chaneel yT - 3 blue one brown
+Calculus
+///////////
+
+
+
+Find if any car in my container has a price above 50000
+--> worst case time complexity --> o(n)
+
+factorial of a number N 
+
+    N N-1 N-2 N-3 N-4 N-5 
+
+
+    factorial(N)
+
+        if N ==0 or N==1 
+            return 1
+        else 
+            factorial(N-1)* N;
+    

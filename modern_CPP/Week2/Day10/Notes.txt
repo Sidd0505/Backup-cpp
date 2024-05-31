@@ -1,0 +1,22 @@
+THis is an example of LAMBDA USING BIND 
+
+
+Week 2 :
+
+Lambda function
+function wrapper
+reference wrapper
+Bind 
+
+Lambda is a variable that is why extern mark it. (reference in Functionalities.h)
+search extern keyword.
+
+
+
+
+/*
+list can't store continuous values 
+list pe square bracket nahi chalta
+Vector pe sub chalta hai
+*/
+

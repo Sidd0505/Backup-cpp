@@ -1,0 +1,59 @@
+Structured programming
+Ex  - C Programming 
+    - imperaive coding 
+    
+
+
+
+Object Oriented Programming
+    - represent state based on a model
+    - extend, associate, compose, aggregate, generalize and abstract behaviour and types
+    - It is suitable scal projects 
+
+
+
+//python code --->
+create a list of numbers each called as num such that numbers is in the range of 1 to 10
+
+    data = [num for num in range(1,11,1)]
+
+
+New Keywords 
+
+lambda 
+map
+filter
+reduce
+closure
+Type Erasure
+wrapper
+Partial Function 
+value Semantics (reference semantics , pointer semantics --> do them )
+/////////////////////
+
+monoid
+monad
+
+
+A lambda fun with nothing inside capture clause is impliciltly convertible to a function pointer.
+
+
+
+1) every object has a Type
+    i) functions should also have a type
+2) oass objects to functions as parameters
+    functions can be passed via wrapper or function pointer to other functions
+3) return ojects from functions
+    iii) Fuctions can be return via wrapper or function pointer from other functions
+4) we can obtain address of objects
+    iv) We can obtain address (location) of any function
+5) objects can be stored in containers.
+    v) Function can also be stored in containers via wrapper in functional pointer
+
+
+
+
+OS basics
+Netwrokingand databases
+datastructure and algorithms
+

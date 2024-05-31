@@ -1,0 +1,35 @@
+HASH VALUE OR HASH : the answer of a mathematical operation applied on the key.
+
+HASH FUNCTION  : This is the opration applied e.g. Modulus 5 
+//A good hash function will prevent collision 
+
+//hash table we can't make it in ram
+Hash Table(Illusion) : This is the table of contents or a strucutre where position
+                        of each key is preserved. The key is linked with the actual value 
+
+[101 | Harshit | 700.0f]
+[102 | Rohan | 800.0f]
+[103 | Ajay  | 900.0f]
+
+Hash Function --> MOD 3 
+/////
+step 1 : apply hash function on each key 
+        a) 101 % 3  = 2
+        b) 102 % 3 = 0
+        c) 103 % 3 = 1
+
+Hash Table 
+
+row 0 --> 0  --> [102 | [102 | Rohan | 800.0f]]
+row 1 --> 1  --> [103 | [103 | Ajay  | 900.0f]]
+row 2  --> 2 --> [101 | [101 | Harshit | 700.0f] ] --> [104 | [104 |Laxman |10000.0f ]]
+
+
+Run-TimeNotes --:)-->
+
+*)In the worst case : The hash table will become the linked list 
+*)The more collisions are happening you are becoming closer to linked list. 
+*)Should be maths formula
+*)should produce new value for unique key
+*)Hash table shows position of each key and will show u key value pair 
+

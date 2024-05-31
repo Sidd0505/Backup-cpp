@@ -1,0 +1,29 @@
+What we have done in Modern Cpp Week-1 : 
+Keywords:
+
+1) default
+2) delete
+3) override
+4) final
+5) nullptr
+6) noexcept
+7) auto
+
+Concepts :
+
+1) enum class
+2) Rvalue Reference and move semantics
+3) uniform initialization
+4) member list initialization
+5) Constructor Delegation
+6) Smart Pointers - shared_ptr
+7) For - each loop
+
+
+
+Copy should be avoided in modern
+
+effective modern cpp book
+
+week 2 functional programming will be there 
+

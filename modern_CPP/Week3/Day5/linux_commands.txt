@@ -1,0 +1,19 @@
+<command>   <options>    path
+ls          -l          ~/Desktop
+
+
+##
+ls -a
+.  .. 
+here . is current directory and .. is parent directory i.e. Week3
+-a shows hidden things.
+
+-l : long form of detailed output
+
+-h : sizes in human redable form
+
+-R : recursively list subfolders(It will perform DFS search)
+
+-t : 
+
+-r : reverse sort (use with -t)

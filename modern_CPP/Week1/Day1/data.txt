@@ -1,0 +1,12 @@
+101
+TataNexon
+130000.0f
+0
+102
+MahindraBolero
+45000.0f
+0
+103
+XYZabs
+900000.0f
+2

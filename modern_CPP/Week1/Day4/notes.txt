@@ -1,0 +1,51 @@
+Abstraction:
+
+Abstraction --> It gives freedom to people to implement the function in different ways.
+
+distrotube
+ 
+SCOTT MAYERS EFFECTIVE MODERN C++
+
+
+Each time if you forget to write all the files in terminal during compile time then -->
+sybol not found or undefined reference.
+
+Facts --->
+1) C and C++ are totally different language
+
+2) lvalues and rvalues have been revised.
+
+3) Pointers semantics are discouraged. 
+
+lvalue --> things with storage(in memory) attach to them and have a name.
+
+int n1 = 10;
+Here, n1 is lvalue becoz the developer has given name to it and it have value. 
+
+Rvalues --> these are temporary things.(not yet in the ram)
+expression --> anything that produces a value e.x. x+y 
+function call becoz it will return something
+Any line of code which executes and does give me value back then it is called as expression 
+and if it doesn't then it is called as statement. 
+
+rvalues --> temperory things which have been created but they dont have storage. 
+rvalue can get attached and get saved to the storage after which the rvalue can no longer be recognised as a rvalue, it is now lvalue.
+
+
+stack --> output program gets stoed in hard disk 
+we can't run from hard disk then our OS will retrieve it from hard disk and put it in RAM 
+according to OS it is called as process 
+when this happens OS will get memory for this 
+
+
+if i want to send any data from one fun to other then there are 4 options to send: 
+copy
+reference
+address
+or move
+
+
+
+return_by_reference ---> 
+Returning a reference of local variable then what will happen after is undefined behaviour.
+every compiler can do very weird with it that is why.

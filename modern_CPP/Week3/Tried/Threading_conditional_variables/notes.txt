@@ -1,0 +1,5 @@
+When object is destroyed destructor is called
+mutex is the resource of lock_guard
+
+
+producer consumer analogy?

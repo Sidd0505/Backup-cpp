@@ -1,0 +1,57 @@
+Youtube channel
+
+1)mike shah
+(beginner friendly videos) -----> (stages of compilation video) -->(do today)
+The c++ programming. 
+
+2) cppcon
+back to basics (Topics like : oop, smart pointer) also watch RAII
+part -1, part-2 (Templates )learn it
+
+3) distrotube
+The command line 
+(Terminal for beginners)
+(Note:Start from basics :))
+OR another Linux channel 
+4) LearnLinuxTv
+(Not very in depth but good for linux)
+
+
+
+WEBSITES (FOR reading articles)
+
+1) cppreference.com (as close to cpp)
+    (Technical and correct)
+    
+2) thisptr.com 
+3) nextpr.com
+(These two are not heavy but technically correct.)
+
+
+
+Don't 
+codewith harry
+love babbar
+
+
+
+
+psycological book to reading
+
+
+
+
+VS code 
+ctrl+b -> open close side bar 
+ctrl + p -> pop up to open file quickly
+ctrl + w -> close the current file
+ctrl k + w  -> (if many files are open and close them all)
+ctrl p then enter the file then ctrl+enter -> split windows 
+ctrl + 1 -> left section cursor switch on split windows
+ctrl + 2 
+ctrl + tab to switch windows
+
+os level shortcut :
+
+objdump -Cd app ---> assembly language code type in Terminal
+objdump -Cd app | grep main -A 10

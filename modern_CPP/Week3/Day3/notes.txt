@@ -1,0 +1,3 @@
+Eliminate dependency on polymorphism and to run code faster :--> variant
+
+//To convert g++ into ;

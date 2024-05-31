@@ -1,0 +1,61 @@
+On unique_ptr we can't do copy 
+can't do return by value
+do by reference
+
+One code  should only be handle by one user then use unique_ptr
+
+Vector should not be passed by value 
+
+
+if u don't now all the typs then can we use vaRIANT?
+we have to use 
+
+u can only use variant if u have knownall types in variant
+
+//refsctoring.guru 
+go on this website and learn design patterns
+also search about the factory pattern?
+
+make object when type are inscreasing this is solve using 
+factory pattern
+
+1)Creational - 
+behaviour - how objects behave
+Connect - how object can be structured.
+
+
+
+if both class have same function Paytax use visit arrow lagake (Employee, Businessowner)
+
+
+
+int main()
+{
+    Container data;
+
+    std::thread t1(CreateObjects, std::ref(data));
+
+    arr[0] = std::thread(CreateObjects, std::ref(data));
+
+    arr[0].join();
+
+    //t1.join();
+
+
+    (We write t1.join() here because we will create objects here and will on them in below functions)
+
+    std::thread t2(CalculateTaxPayable, std::ref(data));
+
+    std::thread t3(CallParenOperator, std::ref(data));
+
+
+    for(std::thread & th : arr)
+    {
+        if(th.joinable()){
+            th.join();
+        }
+    }
+    //t2.join();
+
+    //t3.join();
+}

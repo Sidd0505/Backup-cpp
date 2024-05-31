@@ -1,0 +1,23 @@
+reate a multifile project with following
+
+- a functionalities interface for the following 
+
+    - ability to create Car and Bike based on inputs provided to make_shared 
+    - ability to find Car or Bike instances with minimum price
+    - ability to find the average price of all vehicles stored in a container
+    - ability to search and return true or false to indicate whther a vehicle given ID is 
+    present or not
+    - ability to find and return the count of instances whose type matches the type provided
+
+
+
+
+
+WHat it is what it is used for -->
+inline function:
+
+decay use krke??
+
+
+In variant there is either a car pointer or a bike pointer  in this ex
+variant ke andar ek aur variant nhi save hoga

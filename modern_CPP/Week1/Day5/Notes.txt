@@ -1,0 +1,37 @@
+Learn Try and Catch 
+
+Dynamic Cast
+
+Noexcept
+
+final --> can't be expanded
+no child classfor parent class
+
+All classes are extendable.
+
+Avg ofl ast three objects?
+
+If you don't want to modify the data then use reference
+Avoid objects and container making copy 
+
+primitive type data ke liye pass by refrence mat karo pass by value 
+
+Call by reference by default ana chahiye
+
+specially if program is running on heap then pss by reference is necessary if not then it will be slow
+
+for arrays and vectors we have indexes.
+
+list,vectors study it
+
+
+iterators --> 
+for-each works on those classes who have iterators
+vectors, list array ka background formula listed hai
+
+stack, queue --> does not have iterators
+
+Iterators --> Iterators are abstraction over pointer so that we can traverse over elements in container without knowing the formula.
+
+
+inheritance + composition or template   

@@ -1,0 +1,13 @@
+4-5 mcq on bind 
+and also in marathon at least 2 que.
+
+iterators search them 
+
+compiler has to reserve memory so it should know the default value 
+if we want to store the class in array then for compiler there should
+be a default constructor in that class
+
+
+Using bind -->
+Whenever we want to pass a variable using a reference then use std::ref otherwise the copy 
+will be made.

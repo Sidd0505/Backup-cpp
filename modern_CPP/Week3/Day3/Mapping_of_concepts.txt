@@ -1,0 +1,81 @@
+Interface: anything u designed so that your user can connect with the functionalities
+It can have multiple endpoints through which he can enter code.
+One fun. is called an API(ApI  --> ability to access the functionality)
+so the collection of all these API's is called as interface 
+
+
+
+
+* Scenario 1: I want to create a small size, script like program 
+   to perform a simple task.
+
+Concepts to be used : shell script in your preffered shell
+
+* Scenario 2: I want to create a container to store fixed sized of elements
+
+Concepts to be used: array std::array (to take advantage of built-in functions)
+
+* Scenario 3: I want to non-fixed number of elements and I don't want to block 
+consecutive locations in memory for the same
+Concepts to be used : std::list or your implementation of list
+
+* Scenario 4 :  I want to non-fixed number of elements and I want consecutive 
+locations in memory for the same
+Concepts to be used : std::vector or your implementation of vector
+
+* Scenario 5 : I want to create a specific model/representation of a layout 
+of data to be used as reference for storing instances of data 
+Concepts to be used : classes or struct in CPP
+
+* Scenario 6 : I want the ability to create subtypes of my model type 
+immediately or in future for each subcategory that needs to be added
+COncepts to be used : Inheritance
+
+* Scenario 7 : I want to create an interface for an API to accept a type and 
+all of its subtypes as a parameter to the API.
+COncepts to be used : Generalization with upcasting
+
+* Scenario 8 : I want to execute different logic for each subtype pass passed to the function where
+parameter is oF genralized type
+COncepts TO BE USED :
+  a) Method overriding with implementation only in derived class
+  b) Method overriding with implementation in base class and drerived classes both.
+
+*  Scenario 9: I want to decide how basic operators will behave when used with specific data type
+  Concepts to be used: operator overloading
+
+* Scenario 10 : I want to convert a pointer to base class into a pointer to child class in such
+ a way that if conversion fails, I get an exception AT RUN TIME.
+ Concepts to be used : Dynamic cast 
+
+ * Scenario 11 : I want to convert a pointer to a type some other type in such a way that
+  if conversion fails, I can verify that at compile TIME 
+  Concepts to be used : static cast and for run time Dynamic cast
+
+* Scenario 12 : I want to manage resources allocated based on scope of attached
+ object's lifetime
+ Concepts to be used : smart pointer 
+
+* Scenario 13 : I want to decide which special member function will be available or 
+  unavailable for a data type
+ Concepts to be used : defaulted and deleted member functions
+
+* Scenario 14 : I want to store type-erased behaviour in the form of the function in a
+wrapper
+Concepts to be used : std::function wrapper
+
+* Scenario 15: I want to store a reference as a value(value that can be stored somewhere)
+Concepts to be used : reference wrapper 
+
+* Scenario 16 : I want to use composition but in such a way that if composed type (outer class)
+  is istantiated, it should not take a null value of class 
+  e.g.
+  Concepts to be used : std::reference_wrapper for inner class
+
+
+
+class 
+1) data oriented 
+    employee, student, engineer
+2) behaviour oriented 
+    think abt functions. employee what action wil he perform 

@@ -1,0 +1,13 @@
+We can perform 5 operations on map, list, tuple and all :
+like  :-->
+Create
+delete
+append
+read
+search
+
+
+cpp con chrono time wali vid dekho
+
+
+red-black tree 

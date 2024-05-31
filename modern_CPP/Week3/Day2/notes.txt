@@ -1,0 +1,10 @@
+how to copy entire file 
+
+command --> cp demo1.cpp demo2.cpp
+
+Every object gets initialized by constructor
+
+g++ Example1.cpp -lpthread -o app && ./app --> command on terminal
+
+
+Returning something then use async thread otherwise normal thread

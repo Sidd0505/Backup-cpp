@@ -1,0 +1,58 @@
+g++ -c (only write the name of single file it will tell if file have any syntactical errors.)
+
+What not to do in modern:
+No diagram
+Repeated recompilation
+Memorization of flow
+
+Technical problem:
+
+upcasting --> 
+pointer of parent tyoe and attach it to child object.
+
+
+Dynamic cast plz redo it 
+Static cast also
+upcasting
+
+
+
+any variable who starts with underscore it is private assumed
+
+getter fun --> id()
+Constructor -> id
+Private -> _id
+
+
+state representation in oop
+
+
+
+object --> what is object representing?
+
+
+A lambda can be
+1) Predicate --> 
+Any lambda that returns boolean
+
+2) Binary operation -->
+it takes two operands(values) as input then performs binary operation
+
+3) Comparator -->
+Takes 2 operand and compares them & return bool.
+
+
+1) int& ref1 = n1;
+
+2) void magic(int&ref1);    //here int& ref1 = int&ref1 in statement 1   fun defn
+3) magic(n1)               // n1 is n1 in statement 1)                      fun call
+
+Don't make reference of reference
+
+
+Fn + f2 on the keyword or function name
+
+
+what is class state
+
+inheritance, association, composition UML 

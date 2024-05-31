@@ -1,0 +1,5 @@
+ctrl + shift + o --> to move cursor from within a file
+
+ctrl + d --> cursor select
+
+ctrl + shift + l --> select all the cursor with name

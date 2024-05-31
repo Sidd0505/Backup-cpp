@@ -1,0 +1,2 @@
+what will happen if i take multiple objects.
+what will happen if i take multiple classes in inheritance and composition

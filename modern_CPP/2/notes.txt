@@ -1,0 +1,17 @@
+std::vector<std::string>_DeviceID_By_Batter_Drain(const container &data)noexcept(false)
+{
+    if(data.empty()){
+        throw std::runtime_error("No data found");
+    }
+
+    std::vector<std::string> ans;
+    for(const pointer &ptr:data){
+        if(ptr->batteryDrainFactor()>0.3){
+            ans.emplace_back(ptr->deviceId());
+        }
+    }
+    if(ans.empty()){
+        throw std::runtime_error("No data available for battery drain above 0.3"); 
+    }
+    return ans;
+}

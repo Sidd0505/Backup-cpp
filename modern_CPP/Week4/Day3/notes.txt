@@ -1,0 +1,73 @@
+vector
+array
+listunordered_map
+set
+queue
+priority queue - self learning mentioned 
+
+search what are the pros and cons of these containers 
+ 
+
+
+1)return all instances of employee where thre name has less than 7 characters
+2) find the salary for the employee whose ID is received as a parameter
+find if algo
+3) find the average salary for only those employess whose ID is passes as vector
+ of integers to a function
+I guess accumulate
+
+
+Container EmployeeNameCondition(const Container& data){
+    Container result;
+    if(data.empty())
+    {
+        throw std::runtime_error("Data is empty");
+    }
+    std::copy_if(
+        data.begin(),
+        data.end(),
+        [](const std::pair<int, Pointer>& ptr){
+            if(ptr.second->name::size()>8)
+                 result.emplace(ptr.second());
+        }
+    );
+    return result;
+}
+
+void FindEmployeeByID(const Container& data, Employee name){
+    float sal =0.0f;
+    if(data.empty())
+    {
+        throw std::runtime_error("Data is empty");
+    }
+    std::find_if(
+        data.begin(),
+        data.end(),
+        [](const std::pair<int, Pointer>& ptr){
+            if(ptr.second->name() == name)
+                sal = ptr.second->salary();
+        }
+    );
+    std::cout<<"The salary is :<< sal;
+}
+
+void AverageSalaryOfEmployees(const Container& data, std::vector<int>vector)
+{
+    if(data.empty())
+    {
+        throw std::runtime_error("Empty!");
+    }
+float total_val = std::accumulate (
+    data.begin(),
+    data.end(),
+    0.0f, 
+    [](float sum_till_current_val,const std::pair<int, Pointer>& row){
+        for(int& id : vector)
+        {
+            if(ptr.second->id()== id)
+            return sum_till_current_val + row.second->salary();
+        }
+    }
+    );
+    std::cout<<"The Average salary is :"<< total_val/5<<"\n";
+}

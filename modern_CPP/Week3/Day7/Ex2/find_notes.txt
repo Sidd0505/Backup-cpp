@@ -1,0 +1,25 @@
+find : files and folders based on 
+    
+    - pattern of their names
+    - time of creation or last modification 
+    - based on owner (user who owns the file/folder)
+    - based on permission
+    -type (file or folder)
+    - depth (level 0 folder 1, 1 level, N level deep search)
+
+    - mix and match of all the above things 
+
+find all the files in week 3 folder that are cpp extension files 
+
+general linux format 
+
+command-name  <options>   <command-path>
+
+command-name  <options>  --> for find 
+
+find .. -iname"*.cpp"  --? i is ther for case insensitive
+
+find .. -name"*.cpp" -type f
+
+
+grep "^#include

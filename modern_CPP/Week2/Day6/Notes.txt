@@ -1,0 +1,14 @@
+Call By Pointers / Return by pointers :
+Prefererred not to use until absolutely necessary.
+
+Memory allcation and deallocation is runtime concern not compile time.
+
+new is make_shared 
+
+while writing the program of smart pointer dont think of pointer semantic
+
+lvalue reference --> acceptes reference rejects temporary
+rvalue refrence --> acceptes temporary rejects reference
+
+
+

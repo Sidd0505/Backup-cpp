@@ -1,0 +1,181 @@
+unordered-map : hash table based data container
+map : trees based (usually self-balancing)
+unordered-set : hash table
+set : red balck tree
+multimap : Used when multiple values had to be stored with the same key attached to them 
+multiset : same as multi map. It gives a sorted storage of elements
+
+e.g. ; 1, 10, 11, 10, 10, 7, 11   
+How its stored - multiset{1, 7, 10, 10, 11, 11}
+
+
+
+lets search for stack, heap memory
+operator and func overloading
+
+
+linked list, vector, stack ,queue please construct these data structures
+
+please do mini projects in cpp and try to construct
+apache server, tomcat server in modern 
+
+reserach what is webserver
+refere to anyones webserver with diff lanaguage
+same functionality ko recreate krne ki try kro
+
+
+khudka malloc banao
+
+
+search uses equivalance comparator not equality one 
+search between equality and equivalnce
+
+/*
+In these cases draw diagrams in final marathon
+INheritance,
+composition
+container of smart pointers and u r trying to use STL algos on them 
+*/
+
+In marathon, priority queue will be there porbably
+
+cpp nuts how to make priority queue in class
+
+
+
+Data structures done: 
+
+Data : representing employee Ids for various employee
+foll. employess ids 
+
+    e1              e2             e3          e4           e5
+[101 | Harshit] [202 | Rohan] [103 | Ajay] [204 | Mehul] [105 | Mayank]
+plz save these objects in various container
+stack objects hai
+
+1) Array :
+
+    what should be primary knowledge:
+    -fixed size container,
+    -memory has to be reserved before adding elements.
+    -size cannot be changed.
+    -storage contiguous 
+    - constant time, add, remove, read, update using index
+    - we can only add at the end (or modify the element)
+
+2) Vector : 
+
+    -we can increase the number of elements at any point.
+    -The storage is contiguous
+    -If there is no space available adjacent to current memory allocated, all 
+     elements will be shifted
+    - adding elements at the end of the vector, accessing an element for read, updating
+      can all be performed via index position in constant time
+    - memory can be reserved in advance in some implemetations like STL
+    -Advantage over array :
+      dynamic nature
+    - disadvantage over array :
+      data move
+
+3) Linked list :
+
+    - data will not be stored contiguously (not always atleast!)
+    - for each new element to be added, a new mode of data is created by allocating
+      memory. 
+    - Since memory is not supposed to be contiguous, works well for large number of 
+      items
+
+    - operations have different time complexity (OBVIOUSLY)
+
+option 4 a : hash table with key value pairs, only 1 value per key (unordered_map)
+(All your operations will be amortized o(1))
+
+    - hashing based on a hash functions applied on keys determines
+      bucket to store the value
+       (hash table ka ek row ek bucket hota hai)  
+       (for example if mod 3 is a hash functions then bucket will be 3 (0,1,2))
+    - amortized cost of operations.
+
+option 4 b : hash table with key value pairs, multiple value per key (unordered multimap)
+
+    - one key may be associated with multiple values
+    - amortized cost of operations.
+
+option 5 : set with a custom comparision logic created via a comparator (std::set)
+
+    - duplication will not be allowed
+    - duplication is determined using equivalnce principle 
+
+option 6 : data in a stack based on some type of container(std::stack)
+(go through documentation)
+
+    - only one element will be available for the operation (LIFO order)
+    - underlined implemetations can be decided prior to instantitation of stack
+    - for-each loop does not work on stack becoz every element can't be access 
+        of stack
+
+
+
+Control vs Convinence paradox of cpp :
+we can't get both in cpp 
+if we want control we will loose the Convinence and if we want more Convinence then 
+we will loose control 
+Philosophy by harshit sir
+
+
+
+
+week 1 to week 4 :
+
+new keywords - default, delete, auto, nulptr, noexecpt, final, override, using ,
+                constexpr, explicit, mutable, 
+defaultd, deleted fun 
+uniform intialization 
+
+Week 2:
+fun programming :
+ fun pointer, 
+ fun wrapper,
+ refrence wrapper,
+ std::ref - use with situation of decay
+ std::bind 
+Lambdas - anonymous fun, compiler don't recored them, used as class objects, 
+            [](int num){return number}
+        what will hapeen internally 
+            class ${
+                operatoroverload(){return number}
+            }
+.h --> mark it as extern 
+declare in ine file and made in another file 
+
+Functional programming : we treat them like any other object 
+    like we can store them in containers and all 
+(dear Functional bros videos)
+uses - data processing 
+type eraser : cppcon aarthur's videos
+
+week 3: 
+concurrency and cpp 17 
+concurrency - threads (set of instructions) (every thread is like mini program)
+race conditions - two or more threads try to write on same memory location 
+                    (mutex, lock guard , unique_lock)
+conditional_variable
+async coding --> BMW(sound system, map wala example)
+                myntra(product catalog) 
+cpp 17 --> variant  - visit (bina virtual keyword ke polymorphism kr pao )
+           holds_alternative(u just want certain scenarios to run in variant then),
+           and get wala syntax,
+           optional: if u feel like for that given input ur fun is not returning then use it 
+
+structured binding: fixed size wala item rhs ko dedo 
+if - intialization
+copy elision - move assignment, move cnstr (don't write anything in copy cnstr)
+unique ptr 
+
+
+week 4: 
+map, set, STL algo ,
+priority queue
+dynamic allocator list
+
+

@@ -1,0 +1,22 @@
+Design a functionalities interface for the following :
+
+1. A function that accepts a container of integers and prints every odd number from that container
+
+2. A function that accepts a container of integers and prints the count of elements divisible by 4
+
+3. A function that accepts a container of integers and prints the sum of the largest and second largest number in the container
+
+4. A function that accepts a container of integers and prints the minimum element 
+
+5. A function "operation" that accepts a container of functions 1 to 4 (described above)
+and a container of integers. Operation should apply all functions one by one on the passed
+data
+
+Note: 
+1. The container of functions should allow contiguous allocations of elements but also allow 
+ dynamic resizing
+2. the container of integers should be a fixed size container of 5 elements
+3. the function 3 and 4 need to be created as a temporary (using lambda functions)
+4. Comments for documentation and explanation of any complex logic is mandatory
+5. The solution created must include relevant mechanisms to cover all "corner cases" and types of input scenarios
+6. Exception handling, whereever applicable, must also be a part of client code

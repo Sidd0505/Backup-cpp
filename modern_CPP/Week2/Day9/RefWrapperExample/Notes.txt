@@ -1,0 +1,58 @@
+editior and IDE
+    eg: VsCode
+    eg.: NeoVim
+
+version control
+    eg: git
+    eg:Mercurial
+    eg: SVN
+
+Terminal
+    eg: Gnome-Terminal (Which we use)
+    eg: Alakritty
+    eg: Konsole
+
+    Bonus: Session Manager: Tmux
+
+
+Shell:
+    eg: Bash
+    eg: Fish
+    eg: Zsh
+    
+    Bonus: Shell customize
+
+If API has to be tested
+
+    API Client
+
+    eg: POSTMAN
+    eg: Thunder Client (Vscode Extension)
+    eg: Curl (GNU utility)
+
+
+    Unit testing:
+
+    eg: CxxTestGen Framework
+
+
+System Level Package Manager
+
+    eg: apt
+    eg: dnf
+    eg: winget
+
+
+Framework Level Package Manager
+
+    eg: pip, ng, conda, etc
+
+
+
+MCQ quiz bhi ispe rahega
+Week 2 marathon
+Lambda 
+Function wrapper
+Reference wrapper
+std::ref wala Function
+Bind Function

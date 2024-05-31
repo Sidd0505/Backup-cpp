@@ -1,0 +1,1 @@
+int findcoin(int arr[],int,int);
